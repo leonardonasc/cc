@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Dancing Script', cursive;
+  background-image: url('img/tec.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.titulo {
+  color: aliceblue;
+}
+
+.cachorroE {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  justify-content: right;
+}
+
+.cachorroD {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+ display: flex;
+ justify-content: space-between;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto-caio {
+  margin: 10px 0px;
+  border-width: 0.25rem;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, darkblue, red) 1;
+}
+
+p {
+  padding: 1%;
+}
+
