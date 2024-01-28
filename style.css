@@ -50,7 +50,7 @@ body {
   margin: 10px 0px;
   border-width: 0.25rem;
   border-style: solid;
-  border-image: linear-gradient(to bottom, darkblue, red) 1;
+  border-image: linear-gradient(to bottom, rgb(37, 150, 241), rgb(11, 153, 219)) 1;
 }
 
 p {
